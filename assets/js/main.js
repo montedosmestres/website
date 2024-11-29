@@ -341,7 +341,7 @@
 			
 			// Set default language (English) when the page loads
 			window.addEventListener('DOMContentLoaded', () => {
-				updateContent("en");
+				updateContent("pt");
 			});
 			
 // Event listeners for language links
