@@ -2255,31 +2255,88 @@ body {
 
 		}
 
+/* Footer Content Styling */
+#footer .footer-content {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Space out text and logo */
+    width: 100%;
+}
+
+#footer .footer-logo {
+    max-height: 80px; /* Adjust logo height */
+    margin-left: 1em;
+}
+
+#footer .menu {
+    display: flex; /* Ensure the text behaves like inline content */
+    align-items: center; /* Vertically center the text */
+    margin: 0;
+    padding: 0;
+}
+
+#footer .menu li {
+    list-style: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+#footer .menu a {
+    font-size: 1.2em; /* Adjust font size for better balance with the logo */
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+}
+
+@media screen and (max-width: 1000px) {
+    #footer .footer-content {
+        flex-direction: column; /* Stack text and logo vertically */
+        text-align: center;
+    }
+
+    #footer .footer-logo {
+        margin: 1em 0 0 0;
+    }
+}
+
+
+
 /* Intro */
+
 #intro {
-    background: url("../../images/intro.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-repeat: no-repeat;
+    background: 
+        radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%), /* Vignette */
+        url("images/overlay.png"), /* Overlay */
+        url("../../images/intro.jpg"); /* Main image */
+    background-size: cover, 256px 256px, cover;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center, top left, bottom center;
+    background-repeat: no-repeat, repeat, no-repeat;
 }
 
 /* One */
+
 #what-we-do {
-    background: url("../../images/one.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: 
+        radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%), /* Vignette */
+        url("images/overlay.png"), /* Overlay */
+        url("../../images/one.jpg"); /* Main image */
+    background-size: cover, 256px 256px, cover;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center, top left, center center;
+    background-repeat: no-repeat, repeat, no-repeat;
 }
 
 /* Two */
+
 #who-we-are {
-    background: url("../../images/two.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: 
+        radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%), /* Vignette */
+        url("images/overlay.png"), /* Overlay */
+        url("../../images/two.jpg"); /* Main image */
+    background-size: cover, 256px 256px, cover;
+    background-attachment: fixed, fixed, fixed;
+    background-position: center center, top left, center center;
+    background-repeat: no-repeat, repeat, no-repeat;
 }
 
 
