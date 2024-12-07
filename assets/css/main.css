@@ -2304,8 +2304,6 @@ body {
 
 #intro {
     background: 
-        radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%), /* Vignette */
-        url("images/overlay.png"), /* Overlay */
         url("../../images/intro.jpg"); /* Main image */
     background-size: cover, 256px 256px, cover;
     background-attachment: fixed, fixed, fixed;
@@ -2317,8 +2315,6 @@ body {
 
 #what-we-do {
     background: 
-        radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%), /* Vignette */
-        url("images/overlay.png"), /* Overlay */
         url("../../images/one.jpg"); /* Main image */
     background-size: cover, 256px 256px, cover;
     background-attachment: fixed, fixed, fixed;
@@ -2330,8 +2326,6 @@ body {
 
 #who-we-are {
     background: 
-        radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%), /* Vignette */
-        url("images/overlay.png"), /* Overlay */
         url("../../images/two.jpg"); /* Main image */
     background-size: cover, 256px 256px, cover;
     background-attachment: fixed, fixed, fixed;
