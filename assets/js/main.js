@@ -253,7 +253,7 @@
 							"Phone / Telefone: +351 912 345 678",
 							"Email: info@montedosmestres.com",
 							"Website: <a href='https://montedosmestres.com' target='_blank'>www.montedosmestres.com</a>",
-							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'> WhatsApp: +351 912 345 67",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
 							"We're here to help make your experience at Monte dos Mestres unforgettable."
 						],
 					},
@@ -299,7 +299,7 @@
 							"Telefone / Phone: +351 912 345 678",
 							"Email: info@montedosmestres.com",
 							"Website: <a href='https://montedosmestres.com' target='_blank'>www.montedosmestres.com</a>",
-							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'> WhatsApp: +351 912 345 67",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
 							"Estamos aqui para tornar a sua experiência no Monte dos Mestres inesquecível."
 						],
 					},
