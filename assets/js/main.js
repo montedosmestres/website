@@ -219,7 +219,6 @@
 
 			const translations = {
 				en: {
-
 					intro: "",
 					whatWeDo: {
 						header: "What We Do",
@@ -249,13 +248,16 @@
 					contact: {
 						header: "Our Contacts",
 						content: [
-							"Ready to book or have questions? Fill out the form below, or reach us directly through:",
-							"Phone / Telefone: +351 912 345 678",
-							"Email: info@montedosmestres.com",
-							"Website: <a href='https://montedosmestres.com' target='_blank'>www.montedosmestres.com</a>",
+							"Ready to book or have questions?",
+							"Reach us directly through:",
+							"<p></p>",
+							"info@montedosmestres.com",
 							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
-							"We're here to help make your experience at Monte dos Mestres unforgettable."
+							"<p></p>",
+							"We're here to help make your experience at",
+							"Monte dos Mestres unforgettable."
 						],
+					
 					},
 					navigation: {
 						intro: "Intro",
@@ -295,12 +297,14 @@
 					contact: {
 						header: "Os Nossos Contactos",
 						content: [
-							"Pronto para reservar ou tem alguma questão? Preencha o formulário abaixo ou entre em contacto diretamente através de:",
-							"Telefone / Phone: +351 912 345 678",
-							"Email: info@montedosmestres.com",
-							"Website: <a href='https://montedosmestres.com' target='_blank'>www.montedosmestres.com</a>",
+							"<pre>Pronto para reservar ou tem alguma questão?<pre>",
+							"Preencha o formulário abaixo ou entre em contacto diretamente através de:",
+							"<p></p>",
+							"info@montedosmestres.com",
 							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
-							"Estamos aqui para tornar a sua experiência no Monte dos Mestres inesquecível."
+							"<p></p>",
+							"Estamos aqui para tornar a sua experiência no", 
+							"Monte dos Mestres inesquecível."
 						],
 					},
 					navigation: {
@@ -312,6 +316,7 @@
 					}
 				},
 			};
+			
 
 			const gallerySwitcher = (lang) => {
 
@@ -348,7 +353,7 @@
 			
 				// Update "Say Hello" section
 				document.querySelector("#contact-header").textContent = translations[lang].contact.header;
-				document.querySelector("#contact-description").innerHTML = translations[lang].contact.content.join("<br>");
+				document.querySelector("#contact-description").innerHTML = translations[lang].contact.content.join("<pre>");
 				
 				// Update Navigation Menu
 					document.querySelector("#nav-intro").textContent = translations[lang].navigation.intro;
@@ -388,5 +393,6 @@ function toggleMenu() {
 
 // Add event listener for the hamburger click
 hamburger.addEventListener("click", toggleMenu);
+
 
 })(jQuery);
