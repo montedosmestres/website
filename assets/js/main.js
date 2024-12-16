@@ -387,6 +387,6 @@ function toggleMenu() {
 }
 
 // Add event listener for the hamburger click
-hamburger.addEventListener("click", toggleMenu);			
+hamburger.addEventListener("click", toggleMenu);
 
 })(jQuery);
