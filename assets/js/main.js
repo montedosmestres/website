@@ -376,6 +376,17 @@ document.getElementById("pt-btn").addEventListener("click", (event) => {
     updateContent("pt");
 });
 
-			
+// Select the hamburger and navigation elements
+const nav = document.querySelector("nav");
+const hamburger = document.querySelector(".hamburger");
+
+// Function to toggle the menu
+function toggleMenu() {
+    nav.classList.toggle("active"); // Toggle 'active' class for navigation
+    hamburger.classList.toggle("active"); // Toggle 'active' class for hamburger
+}
+
+// Add event listener for the hamburger click
+hamburger.addEventListener("click", toggleMenu);			
 
 })(jQuery);
