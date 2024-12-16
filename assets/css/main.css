@@ -2286,6 +2286,8 @@ body {
 		background: #667fad;
 		color: rgb(255, 255, 255);
 		overflow: hidden;
+		text-align: center;
+    	padding: 2em 1em;
 	}
 
 		#footer > * {
@@ -2357,13 +2359,16 @@ body {
 }
 
 #footer .footer-logo {
-    max-height: 80px; /* Adjust logo height */
-    margin-left: 1em;
+    max-height: 80px; /* Adjust logo height 
+    margin-left: 1em;*/
 }
 
 #footer .menu {
-    display: flex; /* Ensure the text behaves like inline content */
-    align-items: center; /* Vertically center the text */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em; /* Space between menu and logo */
     margin: 0;
     padding: 0;
 }
@@ -2387,10 +2392,22 @@ body {
     }
 
     #footer .footer-logo {
-        margin: 1em 0 0 0;
+        max-height: 80px; /* Limit logo height */
+    height: auto;
+    max-width: 120px; /* Limit logo width */
     }
 }
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #footer .icons, #footer .menu {
+        flex-direction: column; /* Stack icons and menu vertically */
+        gap: 0.5em;
+    }
 
+    #footer #footer-logo {
+        max-width: 70px; /* Slightly smaller logo for smaller screens */
+    }
+}
 
 
 /* Intro */
@@ -2489,13 +2506,6 @@ body {
     background-color: #ffffff; /* Background color on hover */
     /*padding: 2px 5px; /* Padding around the text for better spacing */
     border-radius: 0px; /* Optional: rounded corners on hover */
-}
-
-/* Responsive Design */
-@media screen and (max-width: 736px) {
-    .language-toggle a {
-        font-size: 0.9em; /* Adjust font size for small screens */
-    }
 }
 
 
