@@ -1900,21 +1900,110 @@ input, select, textarea {
 /* Responsive Design */
 @media screen and (max-width: 736px) {
     #header {
-        padding: 0 0.5em;
-        height: 2.5em;
-        line-height: 2.5em;
+        padding: 0.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 3.5em;
     }
 
-    .images-container {
-        display: none; /* Hide logos on smaller screens */
+    .images-container img {
+        width: 2.5em;
+        height: 2.5em;
+        object-fit: cover;
     }
 
     #header h1 {
-        font-size: 1em;
+        font-size: 1.5em;
+        padding-left: 10px;
+        text-align: left;
     }
 
+    /* Navigation Menu */
     nav {
-        display: none; /* Hide navigation on smaller screens */
+        display: none; /* Initially hidden */
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Ensure items take full width */
+        justify-content: center; /* Center items vertically */
+        background: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+        position: fixed; /* Fixed position for fullscreen effect */
+        top: 0;
+        right: -100%; /* Initially off-screen */
+        width: 45%; /* Cover a larger portion */
+        height: 100%; /* Full height */
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 2em 1em; /* Add spacing inside the menu */
+        z-index: 1000; /* Ensure above other elements */
+        transition: right 0.3s ease; /* Smooth transition for slide-in */
+    }
+
+    nav.active {
+        display: flex; /* Show menu when active */
+        right: 0; /* Bring it into view */
+    }
+
+    nav ul {
+        list-style: none; /* Remove bullet points */
+        margin: 0; /* Reset margins */
+        padding: 0; /* Reset padding */
+        width: 100%; /* Full width for consistency */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    nav li {
+        width: 100%; /* Full width for items */
+        padding: 0; /* Remove padding */
+		margin: 0; /* Remove margin to prevent extra spacing */
+    }
+
+    nav a {
+        display: block; /* Ensure the link is a block element */
+        padding: .1em; /* Spacing for menu items */
+        font-size: 3em; /* Adjust font size */
+        text-decoration: none; /* Remove underline */
+        color: #354664; /* Text color */
+        text-align: center; /* Center text in links */
+        width: 100%; /* Full width for links */
+        transition: color 0.3s ease; /* Smooth color change */
+    }
+
+    nav a:hover {
+        color: #697eab; /* Change color on hover */
+    }
+
+    /* Hamburger Menu */
+    .hamburger {
+        display: block;
+        width: 2em;
+        height: 2em;
+        cursor: pointer;
+        position: relative;
+        z-index: 1100; /* Above the menu */
+    }
+
+    .hamburger span {
+        display: block;
+        height: 0.3em;
+        width: 100%;
+        background: #697eab; /* Hamburger color */
+        margin: 0.3em 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    /* Hamburger Animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(0.4em, 0.4em);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0; /* Hide middle bar */
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(0.4em, -0.4em);
     }
 }
 
