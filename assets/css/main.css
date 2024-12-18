@@ -2451,6 +2451,12 @@ body {
 		padding-bottom: 0;
 	}
 
+	#contact .content {
+		max-width: 90%; /* Ensure the container is wide enough */
+		margin: 0 auto; /* Center the content */
+		text-align: center;
+	}
+	
 		#contact .box {
 			-moz-transition: -moz-transform 1s ease;
 			-webkit-transition: -webkit-transform 1s ease;
@@ -2461,6 +2467,20 @@ body {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			width: 100%; /* Ensure the container takes the full width */
+			max-width: 100%; /* Avoid unnecessary constraints */
+			box-sizing: border-box; /* Include padding in width calculation */
+
+			padding: 1em;
+    		font-size: 16px; /* Adjust as necessary */
+			line-height: 1.6; /* Improve readability */
+
+			word-wrap: break-word; /* Break long words */
+			overflow-wrap: break-word; /* Ensure wrapping for long lines */
+			
+			text-align: center; /* Optional: Align text for better appearance */
+			/*white-space: normal; /* Allow text to wrap to the next line */
+			overflow: visible; /* Ensure content is fully visible */
 		}
 
 		#contact.inactive .box {
@@ -2473,7 +2493,12 @@ body {
 		@media screen and (max-width: 736px) {
 
 			#contact .box {
-				padding: 1.5em 1.5em 2em 1.5em;
+				/*padding: 1.5em 1.5em 2em 1.5em;*/
+				
+				font-size: 14px;
+				 line-height: 1.4; 
+				/* text-align: justify; /* Align text for better appearance */
+				/* overflow: visible; /* Ensure content is fully visible */
 			}
 
 		}
@@ -2481,7 +2506,12 @@ body {
 		@media screen and (max-width: 480px) {
 
 			#contact .box {
-				padding: 1em 1em 2em 1em;
+				/*padding: 0.5em;*/
+				font-size: 12px;
+				line-height: 1.4;
+				padding: 0.5em;
+				/*text-align: justify; /* Align text for better appearance */
+				/*overflow: visible; /* Ensure content is fully visible */
 			}
 
 		}
