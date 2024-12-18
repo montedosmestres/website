@@ -231,7 +231,7 @@
 					whoWeAre: {
 						header: "Who We Are",
 						content: [
-							"Monte dos Mestres is a recently established property in the heart of the Alentejo, located specifically in São Luís. Born from a decades-long dream of a local native, originally from Sines, who spent years abroad, Monte dos Mestres embodies a vision of revitalizing rural tourism in the region.",
+							"Monte dos Mestres is a recently established property in the heart of the Alentejo, located specifically in São Domingos. Born from a decades-long dream of a local native, originally from Sines, who spent years abroad, Monte dos Mestres embodies a vision of revitalizing rural tourism in the region.",
 							"With deep respect for the Alentejo's traditions and landscapes, we aim to offer an authentic, sustainable, and immersive experience for our guests.",
 							"At Monte dos Mestres, our mission is more than just providing a venue for events; we seek to create a unique rural retreat where every celebration - whether it's a wedding, a corporate gathering, or a family reunion - reflects the essence of the Alentejo. Through our work, we hope to bring people closer to the natural beauty, tranquility, and charm of the Alentejo, fostering memories that last a lifetime."
 						],
@@ -280,7 +280,7 @@
 					whoWeAre: {
 						header: "Quem somos",
 						content: [
-							"O Monte dos Mestres é uma propriedade recente, situada no coração do Alentejo, mais especificamente em São Luís. Nascido do sonho de décadas de um siniense emigrado, o Monte dos Mestres representa uma visão de revitalizar o turismo rural na região.",
+							"O Monte dos Mestres é uma propriedade recente, situada no coração do Alentejo, mais especificamente em São Domingos. Nascido do sonho de décadas de um siniense emigrado, o Monte dos Mestres representa uma visão de revitalizar o turismo rural na região.",
 							"Com profundo respeito pelas tradições e paisagens alentejanas, o nosso objetivo é oferecer uma experiência autêntica, sustentável e envolvente aos nossos hóspedes.",
 							"No Monte dos Mestres, a nossa missão vai além de ser apenas um espaço para eventos; queremos criar um refúgio rural único onde cada celebração - seja um casamento, um evento corporativo ou uma reunião familiar - reflita a essência do Alentejo. Através do nosso trabalho, procuramos aproximar as pessoas da beleza natural, tranquilidade e charme do Alentejo, promovendo memórias que perduram por toda a vida."
 						],
