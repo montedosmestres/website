@@ -296,14 +296,23 @@
 					},
 					contact: {
 						header: "Os Nossos Contactos",
-						content: [
-							"<pre>Pronto para reservar ou tem alguma questão?<pre>",
-							"Preencha o formulário abaixo ou entre em contacto diretamente através de:",
+						content:  [
+							"Pronto para reservar ou tem alguma questão?",
+							"Preencha o formulário abaixo ou entre em contacto diretamente através de:<br>",
+							"info@montedosmestres.com",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67<br>",
+							"Estamos aqui para tornar a sua experiência no",
+							"Monte dos Mestres inesquecível."
+						],
+						contentMob:  [
+							"Pronto para reservar ou tem alguma questão?",
+							"Preencha o formulário abaixo ou entre em",
+							"contacto diretamente através de:",
 							"<p></p>",
 							"info@montedosmestres.com",
 							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
 							"<p></p>",
-							"Estamos aqui para tornar a sua experiência no", 
+							"Estamos aqui para tornar a sua experiência no",
 							"Monte dos Mestres inesquecível."
 						],
 					},
@@ -335,7 +344,8 @@
 					}
 				
 			}
-			
+			const isMobile = window.innerWidth < 736;
+
 			const updateContent = (lang) => {
 				gallerySwitcher(lang);
 
@@ -353,15 +363,20 @@
 			
 				// Update "Say Hello" section
 				document.querySelector("#contact-header").textContent = translations[lang].contact.header;
-				document.querySelector("#contact-description").innerHTML = translations[lang].contact.content.join("<pre>");
-				
+				//document.querySelector("#contact-description").innerHTML = translations[lang].contact.content.join("<br/>");
+
+				if (isMobile) {
+					document.querySelector("#contact-description").innerHTML = translations[lang].contact.contentMob.join("<pre>");
+				} else {
+					document.querySelector("#contact-description").innerHTML = translations[lang].contact.content.join("<br/>");
+				}
+
 				// Update Navigation Menu
 					document.querySelector("#nav-intro").textContent = translations[lang].navigation.intro;
 					document.querySelector("#nav-what-we-do").textContent = translations[lang].navigation.whatWeDo;
 					document.querySelector("#nav-who-we-are").textContent = translations[lang].navigation.whoWeAre;
 					document.querySelector("#nav-the-monte").textContent = translations[lang].navigation.theMonte;
 					document.querySelector("#nav-contact").textContent = translations[lang].navigation.contact;
-
 				
 			};
 			
