@@ -2443,6 +2443,21 @@ body {
     background-repeat: no-repeat, repeat, no-repeat;
 }
 
+@media screen and (max-width: 736px) {
+    #intro {
+        background-size: contain; /* or cover based on your design needs */
+        background-position: center top; /* Adjust based on how the image needs to be seen */
+        background-attachment: scroll; /* Change to scroll for better performance */
+    }
+    
+    #what-we-do, #who-we-are {
+        background-size: contain; /* do the same for others */
+        background-position: center top; /* Adjust position */
+        background-attachment: scroll; 
+    }
+}
+
+
 
 /* Contact */
 
