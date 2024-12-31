@@ -249,11 +249,9 @@
 						header: "Our Contacts",
 						content: [
 							"Ready to book or have questions?",
-							"Reach us directly through:",
-							"<p></p>",
+							"Reach us directly through:<br>",
 							"info@montedosmestres.com",
-							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 928 210 615",
-							"<p></p>",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 928 210 615<br>",
 							"We're here to help make your experience at",
 							"Monte dos Mestres unforgettable."
 						],
