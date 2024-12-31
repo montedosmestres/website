@@ -252,7 +252,7 @@
 							"Reach us directly through:",
 							"<p></p>",
 							"info@montedosmestres.com",
-							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 928 210 615",
 							"<p></p>",
 							"We're here to help make your experience at",
 							"Monte dos Mestres unforgettable."
@@ -300,7 +300,7 @@
 							"Pronto para reservar ou tem alguma questão?",
 							"Preencha o formulário abaixo ou entre em contacto diretamente através de:<br>",
 							"info@montedosmestres.com",
-							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67<br>",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 928 210 615<br>",
 							"Estamos aqui para tornar a sua experiência no",
 							"Monte dos Mestres inesquecível."
 						],
@@ -310,7 +310,7 @@
 							"contacto diretamente através de:",
 							"<p></p>",
 							"info@montedosmestres.com",
-							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 912 345 67",
+							"<img src='images/whatsapp.png' alt='WhatsApp Logo' style='width:25px; vertical-align:middle;'>: +351 928 210 615",
 							"<p></p>",
 							"Estamos aqui para tornar a sua experiência no",
 							"Monte dos Mestres inesquecível."
