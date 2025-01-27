@@ -2549,5 +2549,25 @@ body {
     border-radius: 0px; /* Optional: rounded corners on hover */
 }
 
+/* VIDEO PLAYER */
+.fullscreen {
+    position: relative;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Prevents scrollbars from showing */
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes default border */
+}
 
 
