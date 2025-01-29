@@ -2588,9 +2588,11 @@ body {
     margin-bottom: 1em;
 }
 
+
 .download-container {
     display: flex; /* Use flexbox to place elements side by side */
-    justify-content: center; /* Center the content horizontally */
+    justify-content: space-between; /* Space between the two sections */
+    align-items: stretch; /* Stretch the children elements to fill the height */
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
     max-width: 1200px; /* Set a max width for the container */
     margin: 0 auto; /* Center the container */
@@ -2599,13 +2601,12 @@ body {
 
 .download-section {
     background-color: #fff; /* Background color for each section */
-    border: 1px solid #eee; /* Border for better visibility */
+    border: 1px solid #eee; /* Border for clarity */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
     position: relative;
-    width: 45%; /* Set width to about half of the container */
-    max-width: 45%; /* Ensure it doesn't exceed the maximum width */
-    padding: 1.5em; /* Padding for inner content */
+    width: 48%; /* Set width to nearly half of the container */
     box-sizing: border-box; /* Include padding in width calculations */
+    padding: 1.5em; /* Padding for inner content */
     transition: transform 1s ease; /* Transition for any hover effects */
 }
 
@@ -2630,6 +2631,7 @@ body {
 @media screen and (max-width: 736px) {
     .download-section {
         width: 100%; /* Stack sections on smaller devices */
+	margin-bottom: 20px; /* Space between stacked elements */
     }
 }
 
