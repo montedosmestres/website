@@ -413,14 +413,14 @@ function toggleMenu() {
     nav.classList.toggle("active"); // Toggle 'active' class for navigation
     hamburger.classList.toggle("active"); // Toggle 'active' class for hamburger
 }
-function downloadFile(fileUrl) {
-    const link = document.createElement('a');
-    link.href = fileUrl; // Set the URL of the PDF file
-    link.download = fileUrl.split('/').pop(); // This will set the downloaded file name as the last part of the URL
-    document.body.appendChild(link); // Add the link to the body (necessary for Firefox)
-    link.click(); // Programmatically click the link to trigger the download
-    document.body.removeChild(link); // Remove the link from the document
-}
+// function downloadFile(fileUrl) {
+//     const link = document.createElement('a');
+//     link.href = fileUrl; // Set the URL of the PDF file
+//     link.download = fileUrl.split('/').pop(); // This will set the downloaded file name as the last part of the URL
+//     document.body.appendChild(link); // Add the link to the body (necessary for Firefox)
+//     link.click(); // Programmatically click the link to trigger the download
+//     document.body.removeChild(link); // Remove the link from the document
+// }
 
 // Add event listener for the hamburger click
 hamburger.addEventListener("click", toggleMenu);
