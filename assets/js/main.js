@@ -245,6 +245,23 @@
 							"Immerse yourself in the essence of the Alentejo, where every moment becomes a cherished memory."
 						],
 					},
+					downloads:{
+						header: "",
+						content: "",
+					},
+					downloads: {
+				            header: "Downloads",
+				            content: [
+				                {
+				                    title: "Events",
+				                    description: "Click the button below to download the Events:",
+				                },
+				                {
+				                    title: "Weddings",
+				                    description: "Click the button below to download the Weddings:",
+				                }
+				            ]
+				        },
 					contact: {
 						header: "Our Contacts",
 						content: [
@@ -296,6 +313,19 @@
 							"Mergulhe na essência do Alentejo, onde cada momento se torna uma memória especial."
 						],
 					},
+					downloads: {
+				            header: "Downloads",
+				            content: [
+				                {
+				                    title: "Eventos",
+				                    description: "Clique no botão abaixo para baixar os Eventos:",
+				                },
+				                {
+				                    title: "Casamentos",
+				                    description: "Clique no botão abaixo para baixar os Casamentos:",
+				                }
+				            ]
+				        },
 					contact: {
 						header: "Os Nossos Contactos",
 						content:  [
