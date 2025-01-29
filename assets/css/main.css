@@ -2576,22 +2576,41 @@ body {
     transform: translate(-50%, -50%); /* Center the video */
 }
 
-/* Downloads */
+/* Download Section */
+
 #downloads {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
+    padding: 2em 0; /* Add some padding around the section */
+    overflow: hidden;
+}
+
+#downloads h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 1em;
+}
+
+.download-container {
+    display: flex; /* Use flexbox to place elements side by side */
+    justify-content: center; /* Center the content horizontally */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    max-width: 1200px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container */
+    gap: 20px; /* Space between sections */
 }
 
 .download-section {
-    margin: 15px 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #eee;
+    background-color: #fff; /* Background color for each section */
+    border: 1px solid #eee; /* Border for better visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    position: relative;
+    width: 45%; /* Set width to about half of the container */
+    max-width: 45%; /* Ensure it doesn't exceed the maximum width */
+    padding: 1.5em; /* Padding for inner content */
+    box-sizing: border-box; /* Include padding in width calculations */
+    transition: transform 1s ease; /* Transition for any hover effects */
 }
 
 .download-section h2 {
-    margin-bottom: 10px;
+    margin: 0 0 10px; /* Space below the heading */
 }
 
 .download-section button {
@@ -2605,6 +2624,13 @@ body {
 
 .download-section button:hover {
     background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 736px) {
+    .download-section {
+        width: 100%; /* Stack sections on smaller devices */
+    }
 }
 
 
