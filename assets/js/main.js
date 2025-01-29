@@ -398,6 +398,10 @@
 				// Update "The Monte" section
 				document.querySelector("#the-monte h2").textContent = translations[lang].theMonte.header;
 				document.querySelector("#the-monte p").innerHTML = translations[lang].theMonte.content.join("<br><br>");
+
+				//Update "Downloads" section
+				document.querySelector("#downloads h2").textContent = translations[lang].downloads.header;
+				document.querySelector("#downloads p").innerHTML = translations[lang].downloads.content.join("<br><br>");
 			
 				// Update "Say Hello" section
 				document.querySelector("#contact-header").textContent = translations[lang].contact.header;
