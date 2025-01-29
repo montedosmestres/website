@@ -2586,6 +2586,7 @@ body {
 #downloads h1 {
     text-align: center; /* Center the title */
     margin-bottom: 1em;
+	font-size: 1em;
 }
 
 
