@@ -2576,4 +2576,35 @@ body {
     transform: translate(-50%, -50%); /* Center the video */
 }
 
+/* Downloads */
+#downloads {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.download-section {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.download-section h2 {
+    margin-bottom: 10px;
+}
+
+.download-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-section button:hover {
+    background-color: #0056b3;
+}
+
 
