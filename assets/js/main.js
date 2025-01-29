@@ -400,8 +400,10 @@
 				document.querySelector("#the-monte p").innerHTML = translations[lang].theMonte.content.join("<br><br>");
 
 				//Update "Downloads" section
-				document.querySelector("#downloads h2").textContent = translations[lang].downloads.header;
-				document.querySelector("#downloads p").innerHTML = translations[lang].downloads.content.join("<br><br>");
+				document.querySelector("#event-title").textContent = translations[lang].downloads.content[0].title;
+				document.querySelector("#event-description").textContent = translations[lang].downloads.content[0].description;
+				document.querySelector("#wedding-title").innerHTML = translations[lang].downloads.content[1].title;
+				document.querySelector("#wedding-description").innerHTML = translations[lang].downloads.content[1].description;
 			
 				// Update "Say Hello" section
 				document.querySelector("#contact-header").textContent = translations[lang].contact.header;
