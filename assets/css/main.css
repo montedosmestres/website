@@ -2592,7 +2592,7 @@ body {
 .download-container {
     display: flex; /* Use flexbox to place elements side by side */
     justify-content: space-between; /* Space between the two sections */
-    align-items: stretch; /* Stretch the children elements to fill the height */
+    align-items: flex-start; /* Align items at the start */
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
     max-width: 1200px; /* Set a max width for the container */
     margin: 0 auto; /* Center the container */
@@ -2600,14 +2600,12 @@ body {
 }
 
 .download-section {
-    background-color: #fff; /* Background color for each section */
+     background-color: #fff; /* Background color for each section */
     border: 1px solid #eee; /* Border for clarity */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
-    position: relative;
-    width: 48%; /* Set width to nearly half of the container */
-    box-sizing: border-box; /* Include padding in width calculations */
     padding: 1.5em; /* Padding for inner content */
-    transition: transform 1s ease; /* Transition for any hover effects */
+    width: calc(50% - 10px); /* Use calc to adjust width */
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
 .download-section h2 {
