@@ -273,7 +273,7 @@
 						    "<a href='https://www.google.nl/maps/place/MdM+Monte+dos+Mestres/@37.8893874,-8.5575374,17z/data=!3m1!4b1!4m6!3m5!1s0xd1bb3766be579a3:0xcf5033d1db55da61!8m2!3d37.8893832!4d-8.5549625!16s%2Fg%2F11y9pvcrxd?entry=ttu&g_ep=EgoyMDI1MDEwNy4wIKXMDSoASAFQAw%3D%3D' style='text-decoration: none; color: inherit;'>",
 						    "We're here to help make your experience at",
 						    "Monte dos Mestres unforgettable.<br>",
-						    "<img src='images/location.png' alt='Location Logo' style='width:25px; vertical-align:middle;'> Location</a><br>"
+						    "<img src='images/location.png' alt='Location Logo' style='width:25px; vertical-align:middle;'> <b>Location</b></a><br>"
 						],
 
 					
@@ -337,7 +337,7 @@
 							"<a href='https://www.google.nl/maps/place/MdM+Monte+dos+Mestres/@37.8893874,-8.5575374,17z/data=!3m1!4b1!4m6!3m5!1s0xd1bb3766be579a3:0xcf5033d1db55da61!8m2!3d37.8893832!4d-8.5549625!16s%2Fg%2F11y9pvcrxd?entry=ttu&g_ep=EgoyMDI1MDEwNy4wIKXMDSoASAFQAw%3D%3D' style='text-decoration: none; color: inherit;'>",
 							"Estamos aqui para tornar a sua experiência no",
 							"Monte dos Mestres inesquecível.<br>",
-							"<img src='images/location.png' alt='Location Logo' style='width:25px; vertical-align:middle;'> Localização São Domingos / Santiago do Cacém</a>"
+							"<img src='images/location.png' alt='Location Logo' style='width:25px; vertical-align:middle;'> <b>Localização São Domingos / Santiago do Cacém</b></a>"
 						],
 						contentMob:  [
 							"Pronto para reservar ou tem alguma questão?",
@@ -351,7 +351,7 @@
 							"<p></p>",
 							"Estamos aqui para tornar a sua experiência no",
 							"Monte dos Mestres inesquecível.<br>",
-							"<img src='images/location.png' alt='Location Logo' style='width:25px; vertical-align:middle;'> Localização São Domingos / Santiago do Cacém</a>"
+							"<img src='images/location.png' alt='Location Logo' style='width:25px; vertical-align:middle;'> <b>Localização São Domingos / Santiago do Cacém </b></a>"
 						],
 					},
 					navigation: {
