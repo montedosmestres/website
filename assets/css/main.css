@@ -2493,22 +2493,7 @@ body {
 			/*white-space: normal; /* Allow text to wrap to the next line */
 			overflow: visible; /* Ensure content is fully visible */
 		}
-/* MAP Setup */
-		.map-container {
-			position: relative;
-		    width: 100%; /* Make sure it takes full width of its parent */
-		    height: auto; /* Allow height to be automatic based on content */
-		    padding: 0; /* Reset padding if added */
-`			margin:0;
-		}
-		.map-container iframe {
-		    position: absolute;
-		    top: 0;
-		    left: 0;
-		    width: 100%; /* Makes the iframe responsive */
-		    height: 100%; /* Covers the full height of the container */
-		    border: 0; /* Optional: Removes the border */
-		}
+
 
 
 		#contact.inactive .box {
@@ -2651,5 +2636,20 @@ body {
     }
 }
 
-
+/* MAP Setup */
+		.map-container {
+		position: relative;
+		    width: 100%; /* Make sure it takes full width of its parent */
+		    height: auto; /* Allow height to be automatic based on content */
+		    padding: 0; /* Reset padding if added */
+`		margin:0;
+		}
+		.map-container iframe {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%; /* Makes the iframe responsive */
+		    height: 100%; /* Covers the full height of the container */
+		    border: 0; /* Optional: Removes the border */
+		}
 
