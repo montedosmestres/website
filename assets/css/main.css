@@ -2636,20 +2636,19 @@ body {
 
 /* MAP Setup */
 .map-container {
-        position: relative;
-        width: 100%; /* Container takes full width */
-        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-        height: 0; /* Collapses height */
-        overflow: hidden; /* Prevents overflowing */
-    }
+    position: relative;
+    width: 100%; /* Container takes full width */
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0; /* Collapses height */
+    overflow: hidden; /* Prevents overflowing */
+}
 
-    .map-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%; /* Makes the iframe responsive */
-        height: 100%; /* Covers the full height of the container */
-        border: 0; /* Optional: Removes the border */
-    }
-
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Makes the iframe responsive */
+    height: 100%; /* Covers the full height of the container */
+    border: 0; /* Optional: Removes the border */
+}
 
