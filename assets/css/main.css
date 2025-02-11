@@ -2494,6 +2494,12 @@ body {
 			overflow: visible; /* Ensure content is fully visible */
 		}
 
+		.map-container {
+		    width: 100%; /* Make sure it takes full width of its parent */
+		    height: auto; /* Allow height to be automatic based on content */
+		    padding: 0; /* Reset padding if added */
+		}
+
 		#contact.inactive .box {
 			-moz-transform: translateY(100%);
 			-webkit-transform: translateY(100%);
