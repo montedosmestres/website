@@ -2458,13 +2458,12 @@ body {
 /* Contact */
 
 	#contact {
-		overflow: hidden;
-		padding-bottom: 0;
-		position: relative;
+		overflow: visible;
+		padding: 0;
 	}
 
 	#contact .content {
-		max-width: 90%; /* Ensure the container is wide enough */
+		max-width: 96%; /* Ensure the container is wide enough */
 		margin: 0 auto; /* Center the content */
 		text-align: center;
 	}
@@ -2480,7 +2479,7 @@ body {
 			transform: translateY(0);
 			position: relative;
 			width: 100%; /* Ensure the container takes the full width */
-			max-width: none; /* Avoid unnecessary constraints */
+			/*max-width: none;  Avoid unnecessary constraints */
 			box-sizing: border-box; /* Include padding in width calculation */
 
 			padding: 1em;
@@ -2642,10 +2641,10 @@ body {
     
     width: 100%; /* Container takes full width */
    /* padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 300px; /* Collapses height */
-    /*overflow: hidden;  Prevents overflowing */
-position: relative;
-	margin:0;
+    height: 500px; /* Collapses height */
+   overflow: hidden;  /* Prevents overflowing */
+ /*position: relative; */
+	 /*margin:0; */
 }
 
 .map-container iframe {
