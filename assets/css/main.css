@@ -2464,7 +2464,7 @@ body {
 	}
 
 	#contact .content {
-		max-width: 100%; /* Ensure the container is wide enough */
+		max-width: 90%; /* Ensure the container is wide enough */
 		margin: 0 auto; /* Center the content */
 		text-align: center;
 	}
@@ -2639,21 +2639,20 @@ body {
 
 /* MAP Setup */
 .map-container {
-    
-     width: calc(100% + 40px); /* Full width minus padding on each side. Adjust 40px to match the left/right padding */
-    margin-left: -20px; /* Offset by half of the extra width */
-    margin-right: -20px; /* Offset by half of the extra width */
+    width: 100%; /* Full width of the parent */
     height: 400px; /* Set a specific height for the map */
+    position: relative; /* For positioning the iframe */
     overflow: hidden; /* Hide overflow if any */
-    position: relative; /* For absolute positioning of the iframe */
+    padding: 0; /* No padding needed */
+    margin: 0; /* No margin */
 }
 
 .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Makes the iframe responsive */
-    height: 100%; /* Covers the full height of the container */
-    border: 0; /* Optional: Removes the border */
+    position: absolute; /* Fill the container */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    border: 0; /* No border */
 }
 
