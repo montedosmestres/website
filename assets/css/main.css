@@ -2460,6 +2460,7 @@ body {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+		position: relative;
 	}
 
 	#contact .content {
@@ -2637,12 +2638,14 @@ body {
 }
 
 /* MAP Setup */
-		.map-container {
-    position: relative;
+.map-container {
+    
     width: 100%; /* Container takes full width */
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0; /* Collapses height */
-    overflow: hidden; /* Prevents overflowing */
+   /* padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 300px; /* Collapses height */
+    /*overflow: hidden;  Prevents overflowing */
+position: relative;
+	margin:0;
 }
 
 .map-container iframe {
