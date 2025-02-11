@@ -2459,11 +2459,12 @@ body {
 
 	#contact {
 		overflow: visible;
-		padding: 0;
+		padding: 20px;
+		padding-bottom:0;
 	}
 
 	#contact .content {
-		max-width: 96%; /* Ensure the container is wide enough */
+		max-width: 100%; /* Ensure the container is wide enough */
 		margin: 0 auto; /* Center the content */
 		text-align: center;
 	}
@@ -2639,12 +2640,12 @@ body {
 /* MAP Setup */
 .map-container {
     
-    width: 100%; /* Container takes full width */
-   /* padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 500px; /* Collapses height */
-   overflow: hidden;  /* Prevents overflowing */
- /*position: relative; */
-	 /*margin:0; */
+     width: calc(100% + 40px); /* Full width minus padding on each side. Adjust 40px to match the left/right padding */
+    margin-left: -20px; /* Offset by half of the extra width */
+    margin-right: -20px; /* Offset by half of the extra width */
+    height: 400px; /* Set a specific height for the map */
+    overflow: hidden; /* Hide overflow if any */
+    position: relative; /* For absolute positioning of the iframe */
 }
 
 .map-container iframe {
